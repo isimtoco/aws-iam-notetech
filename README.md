@@ -48,7 +48,7 @@ Designed and implemented role-based access control (RBAC) system for NoteTech, a
 - Minimum password length: 15 characters
 - Complexity requirements: uppercase, lowercase, numbers, symbols
 - Password history: Prevents reuse of last 5 passwords
-- Account lockout; Protection against brute-force attacks
+- Account lockout: Protection against brute-force attacks
 
 ### 4. Access Testing & Validation
 Validated security across 4 comprehensive test scenarios:
