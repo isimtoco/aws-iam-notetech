@@ -6,10 +6,10 @@ NoteTech is a growing technology services company that requires enterprise-grade
 Designed and implemented role-based access control (RBAC) system for NoteTech, a simulated company with 10-users and 6 different departments. This project demonstrates identity and access managemnt principles including least privilege enforcement, multi-factor authentication (MFA), and password security policies. 
 
 # Key Metrics
--Users Managed: 10 users
--Departments: 6 (Engineering, HR, Finance, IT, Marketing, Admin)
--AWS Managed Policies: 9
--MFA Coverage: Admin Tier
+- Users Managed: 10 users
+- Departments: 6 (Engineering, HR, Finance, IT, Marketing, Admin)
+- AWS Managed Policies: 9
+- MFA Coverage: Admin Tier
 
 # User Distribution 
 | Department  | Users | Key Permissions |
