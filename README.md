@@ -56,5 +56,5 @@ Validated security across 4 comprehensive test scenarios:
 - Finance can access billing data
 - Engineering cannot access EC2 infrastructure
 - IT can view (but not modify) EC2 instances
-**Test Results:** 100% compliance with least privilege design 
+- **Test Results:** 100% compliance with least privilege design 
 
