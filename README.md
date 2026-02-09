@@ -22,39 +22,39 @@ Designed and implemented role-based access control (RBAC) system for NoteTech, a
 | Marketing   | 2     | S3 Full, SES Full, Analytics View |
 
 # Employee Roster:
--Valentine Edwards (Admin-MFA enabled)
--Jake Miller (Engineering)
--Abigail Sutton (Engineering)
--Warren Zhao (Finance)
--Rose Lee (HR)
--Luca Rivera (HR)
--Alex Sharpe (IT)
--River Garcia (IT)
--Bella Robinson (Marketing)
--Emily Jenner (Marketing)
+- Valentine Edwards (Admin-MFA enabled)
+- Jake Miller (Engineering)
+- Abigail Sutton (Engineering)
+- Warren Zhao (Finance)
+- Rose Lee (HR)
+- Luca Rivera (HR)
+- Alex Sharpe (IT)
+- River Garcia (IT)
+- Bella Robinson (Marketing)
+- Emily Jenner (Marketing)
 
 # Security Controls Implemented
 ### 1. Least Privilege Enforcement
--Group-based permissions (no individual user policies)
--Role-specific access segregation
--Read-only access preferred where appropriate
+- Group-based permissions (no individual user policies)
+- Role-specific access segregation
+- Read-only access preferred where appropriate
 
 ### 2. Multi-Factor Authentication (MFA)
--Enabled MFA for administrative account (valentina.edwards)
--TOTP-based authentication (Google Authenticator)
--To improve the project, expand to other deparmtents
+- Enabled MFA for administrative account (valentina.edwards)
+- TOTP-based authentication (Google Authenticator)
+- To improve the project, expand to other deparmtents
 
 ### 3. Password Security Policy 
--Minimum password length: 15 characters
--Complexity requirements: uppercase, lowercase, numbers, symbols
--Password history: Prevents reuse of last 5 passwords
--Account lockout; Protection against brute-force attacks
+- Minimum password length: 15 characters
+- Complexity requirements: uppercase, lowercase, numbers, symbols
+- Password history: Prevents reuse of last 5 passwords
+- Account lockout; Protection against brute-force attacks
 
 ### 4. Access Testing & Validation
-Validaed security across 4 comprehensive test scenarios:
--Marketing cannot access billing data
--Finance can access billing data
--Engineering cannot access EC2 infrastructure
--IT can view (but not modify) EC2 instances
+Validated security across 4 comprehensive test scenarios:
+- Marketing cannot access billing data
+- Finance can access billing data
+- Engineering cannot access EC2 infrastructure
+- IT can view (but not modify) EC2 instances
 **Test Results:** 100% compliance with least privilege design 
 
