@@ -58,5 +58,6 @@ Validated security across 4 comprehensive test scenarios:
 - IT can view (but not modify) EC2 instances
 - **Test Results:** 100% compliance with least privilege design
   
-# Full Project Documentation: https://1drv.ms/w/c/e64fcd9abfc97816/IQC9aQ5YYt7SQ6jsfL7QZIt8AbbGYvVPHoxCgroTJCKoRpM?e=h4aA8r
+# Full Project Documentation: 
+https://1drv.ms/w/c/e64fcd9abfc97816/IQC9aQ5YYt7SQ6jsfL7QZIt8AbbGYvVPHoxCgroTJCKoRpM?e=h4aA8r
 
